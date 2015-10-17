@@ -1,9 +1,9 @@
 # Site settings
-title: drgn.fr
+title: Marc Delorme
 email: marc@delorme.io
 description: >
   Writing as a way of learning. If it is useful to someon else, I'll be glad!
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dragnalith.github.io" # the base hostname & protocol for your site
 twitter_username: Dragnalith
