@@ -1,0 +1,20 @@
+<div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px] sbackdrop-blur-xl sshadown-2xl" style="z-index:100">
+  <div id="menu-shadow" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    {{ partial "partials/header/basic.html" . }}
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-shadow');
+    if (scroll > 0) {
+      background_blur.classList.remove("menu-shadow-off");
+      background_blur.classList.add("menu-shadow-on");
+    } else {
+      background_blur.classList.remove("menu-shadow-on");
+      background_blur.classList.add("menu-shadow-off");
+    }
+  });
+</script>

@@ -1,0 +1,41 @@
+@keyframes show-shadow {
+    from {
+        box-shadow:0 0 0 0 rgba(0,0,0,0.0);
+    }
+    to {
+        box-shadow:0 0 0.3rem 0 rgba(0,0,0,0.5);
+    }
+}
+@keyframes hide-shadow {
+    from {
+        box-shadow:0 0 0.3rem 0 rgba(0,0,0,0.5);
+    }
+    to {
+        box-shadow:0 0 0 0 rgba(0,0,0,0);
+    }
+}
+
+.menu-shadow-on {
+    animation-name: show-shadow;
+    box-shadow:0 0 0.3rem 0 rgba(0,0,0,0.5);
+}
+
+.menu-shadow-off {
+    animation-name: hide-shadow;
+    box-shadow:0 0 0 0 rgba(0,0,0,0);
+}
+
+#menu-shadow {
+    opacity: 1;
+    background-color: white;
+    animation-duration: 0.2s;
+    animation-direction:alternate;
+}
+
+.h-64 {
+    height: 16rem;
+  }
+
+.w-64 {
+    width: 16rem;
+}
