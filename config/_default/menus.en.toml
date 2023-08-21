@@ -38,11 +38,11 @@
   url = "https://twitter.com/Dragnalith"
   weight = 60
   
-[[main]]
-  identifier = "mastodon"
-  pre = "mastodon"
-  url = "https://mastodon.gamedev.place/@Dragnalith"
-  weight = 70
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  url = "https://mastodon.gamedev.place/@<useraccount>"
+#  weight = 70
 
 
 #[[main]]
